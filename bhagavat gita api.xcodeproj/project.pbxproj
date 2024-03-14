@@ -75,8 +75,8 @@
 				18E974602B651E810045BD0C /* CreateaccountViewController.swift */,
 				18E974622B65381B0045BD0C /* forgotpasswordViewController.swift */,
 				18E974642B653CB60045BD0C /* mainpageViewController.swift */,
-				18E974662B653D3D0045BD0C /* mainpageTableViewCell.swift */,
 				18E974682B6557420045BD0C /* detailsViewController.swift */,
+				18E974662B653D3D0045BD0C /* mainpageTableViewCell.swift */,
 				18D8CB862ACFCB6900583F8F /* Main.storyboard */,
 				18D8CB892ACFCB6B00583F8F /* Assets.xcassets */,
 				18D8CB8B2ACFCB6B00583F8F /* LaunchScreen.storyboard */,
@@ -101,6 +101,8 @@
 			dependencies = (
 			);
 			name = "bhagavat gita api";
+			packageProductDependencies = (
+			);
 			productName = "bhagavat gita api";
 			productReference = 18D8CB7D2ACFCB6900583F8F /* bhagavat gita api.app */;
 			productType = "com.apple.product-type.application";
@@ -129,6 +131,8 @@
 				Base,
 			);
 			mainGroup = 18D8CB742ACFCB6900583F8F;
+			packageReferences = (
+			);
 			productRefGroup = 18D8CB7E2ACFCB6900583F8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

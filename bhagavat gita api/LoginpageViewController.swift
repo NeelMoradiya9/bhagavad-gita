@@ -8,7 +8,7 @@
 import UIKit
 
 class LoginpageViewController: UIViewController {
-    
+    var switchison = true
     @IBOutlet weak var loginbtn: UIButton!
     @IBOutlet weak var idtxtoutlet: UITextField!
     @IBOutlet weak var passwordtxtoutlet: UITextField!
@@ -16,6 +16,7 @@ class LoginpageViewController: UIViewController {
         super.viewDidLoad()
         loginbtn.layer.cornerRadius = 10
     }
+
     
     @IBAction func createbuttonaction(_ sender: Any) {
         let a = storyboard?.instantiateViewController(withIdentifier: "CreateaccountViewController") as!
@@ -60,13 +61,9 @@ class LoginpageViewController: UIViewController {
         navigationController?.pushViewController(a, animated: true)
         
     }
-    
-    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
-    
-    
 }
 
 
